@@ -45,7 +45,8 @@ function ReviewsCarousel(props) {
           <div className="accordion-body">
             <div
               className="yotpo-widget-instance"
-              data-yotpo-instance-id={instanceid} mode-preview="true"
+              data-yotpo-instance-id={instanceid}
+              mode-preview={productid === "" ? "true" : ""}
              
             ></div>
           </div>
